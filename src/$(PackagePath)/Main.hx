@@ -1,0 +1,48 @@
+package $(PackageName);
+
+import plugincore.IPlugin;
+
+/**
+$(CBI)* ...
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
+@:nativeGen
+class Main implements IPlugin $(CSLB){
+
+	@:property public var Api(get, never):Int;
+	@:property public var Name(get, never):String;
+	@:property public var Guid(get, never):String;
+	@:property public var Author(get, never):String;
+	@:property public var Description(get, never):String;
+	@:property public var Help(get, never):String;
+	@:property public var Settings(get, never):Dynamic;
+
+	public static function main() $(CSLB){
+
+	}
+
+	public function new() $(CSLB){
+
+	}
+
+	public function Initialize():Void $(CSLB){
+
+	}
+
+	public function Dispose():Void $(CSLB){
+
+	}
+
+	public function HandleEvent(sender:Dynamic, e:NotifyEvent, priority:HandlingPriority):Void $(CSLB){
+
+	}
+
+	private function get_Api():Int return 1;
+	private function get_Name():String return '$(ProjectName)';
+	private function get_Guid():String return '';
+	private function get_Author():String return '$(DefaultUser)';
+	private function get_Description():String return '';
+	private function get_Help():String return '';
+	private function get_Settings():Dynamic return cast {};
+
+}
