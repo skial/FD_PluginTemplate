@@ -16,6 +16,7 @@
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src\" />
+		<class path="build\" />
   </classpaths>
   <!-- Build options -->
   <build>
@@ -24,7 +25,7 @@
     <option noInlineOnDebug="False" />
     <option mainClass="$(PackageDot)Main" />
     <option enabledebug="False" />
-    <option additional="-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\Accessibility.dll@std&#xA;-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll@std&#xA;-net-lib $(BaseDir)\PluginCore.dll&#xA;-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll@std" />
+    <option additional="-net-lib $(BaseDir)\PluginCore.dll&#xA;-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\Accessibility.dll@std&#xA;-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll@std&#xA;-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll@std&#xA;--macro Tool.run()" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
