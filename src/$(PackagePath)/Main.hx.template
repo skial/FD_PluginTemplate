@@ -1,6 +1,8 @@
 package $(PackageName);
 
 import plugincore.IPlugin;
+import plugincore.NotifyEvent;
+import plugincore.HandlingPriority;
 
 /**
 $(CBI)* ...

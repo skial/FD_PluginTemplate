@@ -20,12 +20,12 @@
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="dll&#xA;force-lib-check&#xA;net-ver=20&#xA;resgen=$(ProgramsDir)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\Resgen.exe&#xA;csc=$(SystemDir)\Microsoft.NET\Framework\v3.5\csc.exe" />
+    <option directives="dll&#xA;force-lib-check&#xA;net-ver=20&#xA;no-compilation" />
     <option flashStrict="False" />
     <option noInlineOnDebug="False" />
     <option mainClass="$(PackageDot)Main" />
     <option enabledebug="False" />
-    <option additional="-net-lib $(BaseDir)\PluginCore.dll&#xA;-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\Accessibility.dll@std&#xA;-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll@std&#xA;-net-lib $(SystemDir)\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll@std&#xA;--macro Tool.run()" />
+    <option additional="-net-lib C:\Program Files (x86)\FlashDevelop\PluginCore.dll&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\Accessibility.dll@std&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll@std&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll@std&#xA;--macro Tool.run()&#xA;include.hxml" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>

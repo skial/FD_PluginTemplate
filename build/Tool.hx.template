@@ -10,9 +10,9 @@ using StringTools;
 using sys.FileSystem;
 
 /**
- * ...
- * @author Skial Bainn
- */
+$(CBI)* ...
+$(CBI)* @author $(DefaultUser)
+$(CBI)*/
 class Tool {
 
 	private static inline var RESGEN = 'resgen';

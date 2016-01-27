@@ -1,0 +1,2 @@
+-D resgen=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools\Resgen.exe
+-D csc=C:\Windows\Microsoft.NET\Framework\v3.5\csc.exe
