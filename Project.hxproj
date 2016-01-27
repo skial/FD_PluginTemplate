@@ -4,7 +4,7 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\" />
+    <movie path="bin\$(ProjectID)" />
     <movie fps="0" />
     <movie width="0" />
     <movie height="0" />
@@ -16,16 +16,15 @@
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src\" />
-		<class path="build\" />
   </classpaths>
   <!-- Build options -->
   <build>
-    <option directives="dll&#xA;force-lib-check&#xA;net-ver=20&#xA;no-compilation" />
+    <option directives="dll&#xA;force-lib-check&#xA;no-root&#xA;csharp-compiler=C:\Windows\Microsoft.NET\Framework\v3.5\csc&#xA;arch=x86" />
     <option flashStrict="False" />
     <option noInlineOnDebug="False" />
     <option mainClass="$(PackageDot)Main" />
     <option enabledebug="False" />
-    <option additional="-net-lib C:\Program Files (x86)\FlashDevelop\PluginCore.dll&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\Accessibility.dll@std&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll@std&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll@std&#xA;--macro Tool.run()&#xA;include.hxml" />
+    <option additional="-net-lib C:\Program Files (x86)\FlashDevelop\PluginCore.dll&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\Accessibility.dll@std&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll@std&#xA;-net-lib C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll@std" />
   </build>
   <!-- haxelib libraries -->
   <haxelib>
