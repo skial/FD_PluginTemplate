@@ -1,1 +1,1 @@
-A C# FlashDevelop Plugin project written in the Haxe language
+A C# Haxe/FlashDevelop Plugin project written in the Haxe language

@@ -1,6 +1,6 @@
-# FD_PluginTemplate
+# HD/FD_PluginTemplate
 
-A FlashDevelop Project Template to build FD plugins in Haxe.
+A Haxe/FlashDevelop Project Template to build plugins with Haxe.
 
 ![new plugin project](new_project.png)
 
@@ -13,5 +13,5 @@ A FlashDevelop Project Template to build FD plugins in Haxe.
 
 ## Install
 
-Download the current release -  [`v1.0.0-alpha`](https://github.com/skial/FD_PluginTemplate/releases/tag/v1.0.0-alpha) - and open. FlashDevelop will ask you if it should
+Download the current release -  [`v1.0.0-alpha`](https://github.com/skial/FD_PluginTemplate/releases/tag/v1.0.0-alpha) - and open. You will be asked if it should continue to
 install the file.
